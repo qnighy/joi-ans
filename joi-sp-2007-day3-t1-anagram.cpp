@@ -9,7 +9,7 @@
 using namespace std;
 
 int main() {
-  char s[30]; scanf("%s", &s);
+  char s[30]; scanf("%s", s);
   int N = strlen(s);
   int h[26]; fill(h, h+26, 0);
   long long count = 0;
